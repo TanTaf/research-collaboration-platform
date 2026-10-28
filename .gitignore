@@ -1,0 +1,23 @@
+# Files uploaded by users at runtime - not part of the source code
+uploads/avatars/*
+uploads/covers/*
+uploads/events/*
+uploads/projects/*
+uploads/publications/*
+
+# but keep the folders themselves in the repository
+!uploads/*/index.html
+!uploads/*/.htaccess
+
+# Editor and OS clutter
+.vscode/
+.idea/
+*.code-workspace
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs and local scratch
+*.log
+*.bak
+*.tmp

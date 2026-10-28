@@ -1,0 +1,6 @@
+# Never execute anything that is uploaded here -- serve it as a plain file.
+php_flag engine off
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule \.(php|phtml|php3|php4|php5|php7|phar)$ - [F,L]
+</IfModule>
